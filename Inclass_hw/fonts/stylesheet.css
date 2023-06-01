@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Jelly Choco';
+    src: url('JellyChoco.eot');
+    src: url('JellyChoco.eot?#iefix') format('embedded-opentype'),
+        url('JellyChoco.woff2') format('woff2'),
+        url('JellyChoco.woff') format('woff'),
+        url('JellyChoco.ttf') format('truetype'),
+        url('JellyChoco.svg#JellyChoco') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
