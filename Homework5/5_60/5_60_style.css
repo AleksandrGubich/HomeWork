@@ -1,0 +1,15 @@
+.bday{
+    color: green;
+    font-style: unset;
+}
+
+.champ{
+    color: red;
+    font-weight: bold;
+    font-style: unset;
+}
+
+p{
+    color: blue;
+    font-style: italic;
+}
