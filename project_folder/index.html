@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .header{
+            border-bottom: solid 1px #D1D5DB;
+        }
+        
+        .container{
+            margin: 0 232px;
+        }
+
+        .nav_bar{
+            float: right;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0 auto;
+        }
+
+        .logo{
+            float: left;
+            padding-top: 23px;
+        }
+
+        .nav_bar_elem{
+            text-transform: uppercase;
+            display: inline-block;
+            padding: 0 40px;
+        }
+
+        .nav{
+            float: left;
+            padding-top: 29px;
+            padding-bottom: 28px;
+            margin: 0;
+        }
+
+        .payback{
+            text-transform: uppercase;
+            float: right;
+            display: flex;
+            width: 307px;
+            height: 78px;
+            padding: 10px 32px;
+            justify-content: center;
+            align-items: center;
+            background: var(--accent-1, #003B77);
+            color: var(--white, #FFF);
+            font-size: 16px;
+            font-family: Montserrat;
+            font-weight: 700;
+            line-height: 140%;
+            text-transform: uppercase;
+        }
+
+        .burger_pic{
+            padding: 25px 0 0 40px;
+            float: right;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="./images/Logo.svg" alt="logo"></a>
+            </div>
+            <div class="nav_bar">
+                <ul class="nav">
+                    <li class="nav_bar_elem">Наши услуги</li>
+                    <li class="nav_bar_elem">Контакты</li>
+                    <li class="nav_bar_elem">+375(29)546-25-67</li>
+                    <li class="nav_bar_elem">RU</li>
+                </ul>
+                <img src="./images/Burger.svg" alt="Выпадающее меню" class="burger_pic">
+                <button class="payback">Получить расчёт<a href="./images/Vector.svg"></a></button>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+</body>
+</html>
