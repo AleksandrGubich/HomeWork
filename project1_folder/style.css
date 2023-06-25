@@ -1,0 +1,132 @@
+.header{
+    border-bottom: solid 1px #D1D5DB;
+}
+
+.container_1{
+    margin: 0 232px;
+}
+
+.nav_bar{
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    padding-top: 23px;
+}
+
+.nav_bar_elem{
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.nav{
+    float: left;
+    padding-top: 29px;
+    padding-bottom: 28px;
+    margin: 0;
+}
+
+.payback{
+    text-transform: uppercase;
+    float: right;
+    display: flex;
+    width: 307px;
+    height: 78px;
+    padding: 10px 32px;
+    justify-content: center;
+    align-items: center;
+    background: var(--accent-1, #003B77);
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.burger_pic{
+    padding: 25px 0 0 40px;
+    float: right;
+}
+
+.vector{
+    height: 14px;
+    width: 14px;
+    padding-left: 20px;
+}
+
+.slider{
+    background-image: url('./images/Backrg_truck.jpg');
+    background-position-y: 137px;
+    background-repeat: no-repeat;
+}
+
+.container_2{
+    margin: 0 232px;
+}
+
+.center_logo{
+    padding: 40px 0 65px 0;
+}
+
+.type_1{
+    color: var(--accent-2, #9F9);
+    font-size: 60px;
+    font-family: Montserrat;
+    font-weight: 800;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+.type_2{
+    color: var(--gray-1, #F3F3F3);
+    font-size: 60px;
+    font-family: Montserrat;
+    font-weight: 800;
+    line-height: 140%;
+    text-transform: uppercase;
+    float: left;
+    margin: 0;
+}
+
+.mission{
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--white, #FFF);
+    font-size: 18px;
+    font-family: Montserrat;
+    line-height: 140%;
+    padding-left: 28px;
+}
+
+.consult_link{
+    color: var(--white, #FFF);
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 140%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    padding: 30px 0 179px 0;
+}
+
+.mission img{
+    margin-left: 10px;
+}
+
+.type_2 h3{
+    margin: 0;
+}
+
+.mission p{
+    margin: 0; 
+    padding-top: 13px;
+}
