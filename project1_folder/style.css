@@ -1,3 +1,4 @@
+/* Шапка сайта */
 .header{
     border-bottom: solid 1px #D1D5DB;
 }
@@ -33,7 +34,6 @@
 
 .payback{
     text-transform: uppercase;
-    float: right;
     display: inline-block;
     width: 307px;
     height: 78px;
@@ -60,6 +60,7 @@
     padding-left: 20px;
 }
 
+/* Содержание сайта, первая часть */
 .slider{
     background-image: url('./images/Backrg_truck.jpg');
     background-position-y: 137px;
@@ -128,6 +129,7 @@
     padding-top: 13px;
 }
 
+/* Содержание сайта, вторая часть */
 .achievments .container{
     margin-top: 140px;
     margin-bottom: 120px;
@@ -184,6 +186,7 @@
     text-transform: uppercase;
 }
 
+/* Содержание сайта, о компании */
 .about .container h5{
     color: var(--accent-1, #003B77);
     font-size: 52px;
@@ -230,6 +233,7 @@
     background-position-y: 238px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 140px;
 }
 
 .services .container img{
@@ -260,6 +264,7 @@
     margin: 0;
 }
 
+/* Содержание сайта, услуги */
 .services .container p a{
     color: var(--white, #FFF);
     font-size: 18px;
@@ -311,3 +316,5 @@
     line-height: 140%;
     padding: 268px 26px 50px 30px;
 }
+
+/* Содержание сайта, "почему мы" */
