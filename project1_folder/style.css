@@ -2,8 +2,9 @@
     border-bottom: solid 1px #D1D5DB;
 }
 
-.container_1{
-    margin: 0 232px;
+.container{
+    margin: 0 auto;
+    width: 1456px;
 }
 
 .nav_bar{
@@ -33,7 +34,7 @@
 .payback{
     text-transform: uppercase;
     float: right;
-    display: flex;
+    display: inline-block;
     width: 307px;
     height: 78px;
     padding: 10px 32px;
@@ -63,10 +64,7 @@
     background-image: url('./images/Backrg_truck.jpg');
     background-position-y: 137px;
     background-repeat: no-repeat;
-}
-
-.container_2{
-    margin: 0 232px;
+    background-size: cover;
 }
 
 .center_logo{
@@ -99,7 +97,6 @@
     display: flex;
     width: 360px;
     flex-direction: column;
-    flex-shrink: 0;
     color: var(--white, #FFF);
     font-size: 18px;
     font-family: Montserrat;
@@ -131,6 +128,189 @@
     padding-top: 13px;
 }
 
-.container_3{
-    margin: 0 232px;
+.achievments .container{
+    margin-top: 140px;
+    margin-bottom: 120px;
+}
+
+.achievments .container h4{
+    color: var(--accent-1, #003B77);
+    font-size: 52px;
+    font-family: Montserrat;
+    line-height: 140%;
+    margin-top: 0; 
+    margin-bottom: 80px;
+}
+
+.ach_list{
+    display: flex
+}
+
+.ach_list .p1{
+    display: flex;
+    width: 348px;
+    flex-direction: column;
+    color: var(--text-body, #111827);
+    font-size: 22px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 140%;
+    margin: 0 0 18px 0;
+}
+
+.ach_list hr{
+    width: 288px;
+    height: 1px;
+    background: #D1D5DB;
+    margin: 0;
+}
+
+.ach_list .p2{
+    color: var(--accent-1, #003B77);
+    font-size: 80px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin: 18px 0 0 0;
+}
+
+.ach_list .p2 span{
+    color: var(--accent-1, #003B77);
+    font-size: 42px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.about .container h5{
+    color: var(--accent-1, #003B77);
+    font-size: 52px;
+    font-family: Montserrat;
+    line-height: 140%;
+}
+
+.about_more{
+    display: flex;
+    width: 1087px;
+    flex-direction: column;
+    margin-left: 369px;
+}
+
+.about_more p{
+    color: var(--text-body, #111827);
+    font-size: 24px;
+    font-family: Montserrat;
+    line-height: 140%;
+}
+
+.about_more p:last-child{
+    margin-bottom: 60px;
+}
+
+.about .container a{
+    display: block;
+    color: var(--accent-1, #003B77);
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 140%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.about .container a img{
+    padding-left: 10px;
+}
+
+.services{
+    background-image: url('./images/Backgr_second.jpg');
+    background-position-y: 238px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services .container img{
+    margin-top: 140px;
+}
+
+.services .container h6{
+    color: var(--white, #FFF);
+    font-size: 52px;
+    font-family: Montserrat;
+    line-height: 140%;
+    margin: 36.14px 0 0 0;
+}
+
+.for_p{
+    display: inline-block;
+    width: 1087px;
+    flex-direction: column;
+    margin: 40px 0 40px 369px;
+    font-weight: 400;
+}
+
+.for_p p{
+    color: var(--white, #FFF);
+    font-size: 24px;
+    font-family: Montserrat;
+    line-height: 140%;
+    margin: 0;
+}
+
+.services .container p a{
+    color: var(--white, #FFF);
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 140%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.services .container p img{
+    margin: 0 0 0 10px;
+}
+
+.services_link{
+    text-align: right;
+    margin: 0 0 60px 0;
+}
+
+.avia{
+
+}
+
+.avia, .truck, .railway{
+    float: left;
+    width: 472px;
+    height: 349px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    
+}
+
+.avia{
+    background-image: url('./images/Avia.png');
+    margin-right: 20px;
+}
+
+.truck{
+    background-image: url('./images/Truck.png');
+    margin-right: 20px;
+}
+
+.railway{
+    background-image: url('./images/Railway.png');
+}
+
+.avia p, .truck p, .railway p{
+    color: var(--white, #FFF);
+    font-size: 22px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 140%;
+    padding: 268px 26px 50px 30px;
 }
