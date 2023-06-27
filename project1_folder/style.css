@@ -304,6 +304,7 @@
 
 .railway{
     background-image: url('./images/Railway.png');
+    margin-bottom: 204px;
 }
 
 .avia p, .truck p, .railway p{
