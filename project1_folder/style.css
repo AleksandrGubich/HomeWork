@@ -619,4 +619,24 @@
     background-image: url('./images/Boat_image.png');
     background-repeat: no-repeat;
     float: right;
-}   
+    margin-bottom: 140px;
+}
+
+.a_href{
+    color: var(--white, #FFF);
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 140%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.a_href img{
+    margin: 5px 0 0 10px;
+    width: 14px;
+    height: 14px;
+}
+
+/* Содержание сайта, "часто спрашивают" */
