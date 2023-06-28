@@ -640,3 +640,33 @@
 }
 
 /* Содержание сайта, "часто спрашивают" */
+.fr_ask{
+    color: var(--accent-1, #003B77);
+    font-size: 52px;
+    font-family: Montserrat;
+    line-height: 140%;
+    margin: 140px 0 60px 0;
+}
+
+.q{
+    width: 1456px;
+    height: 89px;
+    border-radius: 4px;
+    background: var(--gray-1, #F3F3F3);
+    overflow: hidden;
+}
+
+.q p{
+    color: var(--text-body, #111827);
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 140%;
+    margin: 32px 0 32px 40px;
+    float: left;
+}
+
+.q img{
+    float: right;
+    margin: 38px 40px 37px 0;
+}
