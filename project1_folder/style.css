@@ -648,7 +648,7 @@
     margin: 140px 0 60px 0;
 }
 
-.q{
+.q_1, .q_2, .q_3{
     width: 1456px;
     height: 89px;
     border-radius: 4px;
@@ -656,7 +656,7 @@
     overflow: hidden;
 }
 
-.q p{
+.q_1 p, .q_2 p, .q_3 p{
     color: var(--text-body, #111827);
     font-size: 18px;
     font-family: Montserrat;
@@ -669,4 +669,26 @@
 .q img{
     float: right;
     margin: 38px 40px 37px 0;
+}
+
+.answer_temp{
+    display: flex;
+    width: 1313px;
+    flex-direction: column;
+    margin: 40px 130px 40px 40px;
+}
+
+.answer_temp p{
+    color: var(--text-body, #111827);
+    font-size: 16px;
+    font-family: Montserrat;
+    line-height: 140%;
+}
+
+.q_2{
+    margin-bottom: 20px;
+}
+
+.q_3{
+    margin-bottom: 140px;
 }
