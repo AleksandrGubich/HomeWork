@@ -666,7 +666,7 @@
     float: left;
 }
 
-.q img{
+.q_1 img, .q_2 img, .q_3 img{
     float: right;
     margin: 38px 40px 37px 0;
 }
