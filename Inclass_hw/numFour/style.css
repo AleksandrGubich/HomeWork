@@ -1,0 +1,57 @@
+/* 1 */
+body > div > ul> li > a{
+    color: red;
+}
+/* 2 */
+body > div > ul> li > span > a{
+    color: green;
+}
+/* 3 */
+body > div > ul> li > em > a{
+    color: blue;
+}
+/* 4 */
+body > p > em > a{
+    color: yellow;
+}
+/* 5 */
+body > span > em > a{
+    color: black;
+}
+/* 6 */
+body > ul > li > a{
+    color: orange;
+}
+/* 7 */
+body > ul > li > span > a{
+    color: pink;
+}
+/* 8 */
+body > ul > li > em > a{
+    color: violet;
+}
+/* 9 */
+body > ul > li > p > em > a{
+    color: aqua;
+}
+/* 10 */
+body > ul > li > div > ul > li > a{
+    color: indigo;
+}
+/* 11 */
+body > ul > li > div > ul > li > em > a{
+    color: chocolate;
+}
+/* 12 */
+body > ul > li > div > ul > li > span > a{
+    color: brown;
+}
+/* 13 */
+body > ul > li > div > p > a{
+    color: white;
+    background-color: black;
+}
+/* 14 */
+body > p > em > a{
+    color: gray;
+}
