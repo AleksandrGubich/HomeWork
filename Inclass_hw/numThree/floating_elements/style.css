@@ -1,0 +1,32 @@
+.header{
+    background-color: azure; 
+    height: 120px;
+}
+
+.menu{
+    float: left; 
+    width: 200px; 
+    height: 450px; 
+    background-color: red;
+}
+
+.banner{
+    float: right; 
+    width: 200px; 
+    height: 450px; 
+    background-color: blue;
+}
+
+.mid_content{
+    background-color: rgb(16, 255, 16); 
+    float: none;
+}
+
+.crutch{
+    clear: both;
+}
+
+.footer{
+    background-color: rgb(0, 255, 200); 
+    height: 120px;
+}
