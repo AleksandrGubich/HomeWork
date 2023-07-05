@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Первый способ */
+        div.container1 a{
+            display: inline-block;
+            color: green;
+            border-right: solid 3px red;
+            padding: 5px 10px 10px 10px;
+        }
+
+        div.container1 a:hover{
+            color: red;
+        }
+
+        div.container1 a:last-child{
+            border: none;
+        }
+
+        /* Второй способ */
+        div.container2 ul{
+            padding: 0;
+        }
+        
+        
+        div.container2 li{
+            display: inline-block;
+            border-right: solid 3px red;
+            padding: 5px 10px 10px 10px;
+        }
+
+        div.container2 li:nth-child(5){
+            border: none;
+        }
+
+        div.container2 li a{
+            color: green;
+        }
+
+        div.container2 li a:hover{
+            color: red;
+        }
+
+        /* Третий способ */
+        .clearfix{
+            display: block;
+            content: "";
+            clear: both;
+        }
+
+        div.container3{
+            padding: 0; 
+            margin: 0;
+        }
+
+        div.container3 div a{
+            color: green;
+        }
+
+        div.container3 div{
+            float: left;
+            padding: 5px 10px 10px 10px;
+            border-right: solid 3px red;
+        }
+
+        div.container3 div:nth-child(2), div.container3 div:nth-child(3), div.container3 div:nth-child(4), div.container3 div:nth-child(5){
+            padding-left: 14px;
+        }
+
+        div.container3 div:last-of-type{
+            border: none;
+        }
+
+        div.container3 div a:hover{
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <a href="#">первая ссылка</a>
+        <a href="#">вторая ссылка</a>
+        <a href="#">третья ссылка</a>
+        <a href="#">четвёртая ссылка</a>
+        <a href="#">пятая ссылка</a>
+    </div>
+    <div class="container2">
+        <ul>
+            <li><a href="#">первая ссылка</a></li>
+            <li><a href="#">вторая ссылка</a></li>
+            <li><a href="#">третья ссылка</a></li>
+            <li><a href="#">четвёртая ссылка</a></li>
+            <li><a href="#">пятая ссылка</a></li>
+        </ul>
+    </div>
+    <div class="container3 clearfix">
+        <div>
+            <a href="#">первая ссылка</a>
+        </div>
+        <div>
+            <a href="#">вторая ссылка</a>
+        </div>
+        <div>
+            <a href="#">третья ссылка</a>
+        </div>
+        <div>
+            <a href="#">четвёртая ссылка</a>
+        </div>
+        <div>
+            <a href="#">пятая ссылка</a>
+        </div>
+    </div>
+</body>
+</html>
