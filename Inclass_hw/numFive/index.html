@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .intro p{
+            font-style: italic;
+        }
+
+        .intro span{
+            color: red;
+        }
+
+        body span{
+            color: red;
+        }
+
+        fieldset.contact, fieldset.personal, fieldset.animals{
+            margin: 25px 0 25px 0;
+        }
+
+        fieldset.contact legend, fieldset.personal legend, fieldset.animals legend{
+            font-size: 25px;
+            margin: 10px 0 10px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="intro">
+        <h1>Форма заявки на работу в зоопарке</h1>
+        <p>Пожалуйста, заполните форму. Обязательные поля помечены <span>*</span></p>
+    </div>
+    <form method="POST" action="http://fe.it-academy.by/TestForm.php">
+        <fieldset class="contact">
+            <legend>
+                Контактная информация
+            </legend>
+            Имя<span>*</span><input type="text" name="name" placeholder="Введите Ваше имя"><br>
+            Телефон<input type="tel" name="telephone" placeholder="Введите номер телефона"><br>
+            Email<span>*</span><input type="email" name="email" placeholder="Введите e-mail адрес">
+        </fieldset>
+        <fieldset class="personal">
+            <legend>
+                Персональная информация
+            </legend>
+            Возраст<span>*</span><input type="number" placeholder="Сколько Вам годиков?"><br>
+            Пол<select name="sex">
+                <option value="female">Женщинка</option>
+                <option value="male">Мужчинка</option>
+                <option value="none">Спрошу у мамы</option>
+            </select><br>
+            Перечислите личные качества<textarea name="char" cols="30" rows="10" placeholder="Как бы Вас похвалила бабушка?"></textarea>
+        </fieldset>
+        <fieldset class="animals">
+            <legend>
+                Выберите ваших любимых животных
+            </legend>
+            <label for="Zibra">
+                <input type="checkbox" name="Zibra[]" id="Zibra">Зебра
+            </label>
+            <label for="Cat">
+                <input type="checkbox" name="Cat[]" id="Cat">Кошак
+            </label>
+            <label for="Anaconda">
+                <input type="checkbox" name="Anaconda[]" id="Anaconda">Анаконда
+            </label>
+            <label for="Human"></label>
+                <input type="checkbox" name="Human[]" id="Human">Человек
+            </label>
+            <label for="Elephant">
+                <input type="checkbox" name="Elephant[]" id="Elephant">Слон
+            </label>
+            <label for="Antilopa">
+                <input type="checkbox" name="Antilopa[]" id="Antilopa">Антилопа
+            </label>
+            <label for="Pigeon">
+                <input type="checkbox" name="Pigeon[]" id="Pigeon">Голубь
+            </label>
+            <label for="Crab">
+                <input type="checkbox" name="Crab[]" id="Crab">Краб
+            </label>
+        </fieldset>
+        <input type="submit" value="Отправить информацию">
+    </form>
+</body>
+</html>
