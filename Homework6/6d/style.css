@@ -1,0 +1,14 @@
+.star{
+    height: 78px;
+    width: 75px;
+    background: url('./pictures/star0.png');
+    float: left;
+}
+
+.stars:hover .star{
+    background: url('./pictures/star1.png');
+}
+
+.star:hover ~ .star{
+    background: url('./pictures/star0.png');
+}
