@@ -1,0 +1,23 @@
+.bday{
+    color: green;
+    font-style: unset;
+}
+
+.champ{
+    color: red;
+    font-weight: bold;
+    font-style: unset;
+}
+
+p{
+    color: blue;
+    font-style: italic;
+}
+
+.link{
+    text-decoration: none;
+    background-image: url('../extref.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0 12px;
+}
