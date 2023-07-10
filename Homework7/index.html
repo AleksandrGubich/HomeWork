@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            <p>Для публикации вашей статьи, заполните пожалуйста следующую форму:</p>
+        </div>
+        <form action="http://fe.it-academy.by/TestForm.php" method="post">
+            <div class="content">
+                <p>Название статьи:</p>
+                <input type="text" name="statement"><br>
+                <p>Рубрика:</p>
+                <select name="sphere" id="job_sphere">
+                    <option value="it">программирование</option>
+                    <option value="medicine">медицина</option>
+                    <option value="lumberjack">лесничество</option>
+                    <option value="astronaut">астронавтика</option>
+                </select>
+                <p>Публикация:</p>
+                <input type="radio" name="answer" value="site">на сайте<br>
+                <input type="radio" name="answer" value="magazine">в журнале<br>
+                <input type="radio" name="answer" value="both">на сайте и в журнале<br>
+                <span>Разрешить комментарии:</span><input type="checkbox" name="agreement" class="agr">
+                <p>Текст статьи:</p>
+                <textarea name="state_text" id="state" cols="30" rows="10"></textarea>
+                <input type="submit" name="approve" id="submit" value="Опубликовать">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

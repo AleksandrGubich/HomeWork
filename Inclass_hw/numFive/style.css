@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro p{
+    font-style: italic;
+}
+
+.intro span{
+    color: red;
+}
+
+body span{
+    color: red;
+}
+
+fieldset.contact, fieldset.personal, fieldset.animals{
+    margin: 25px 0 25px 0;
+}
+
+fieldset.contact legend, fieldset.personal legend, fieldset.animals legend{
+    font-size: 25px;
+    margin: 10px 0 10px 0;
+}
+
+fieldset.contact input:nth-of-type(1){
+    margin-left: 200px;
+}
+
+fieldset.contact input:nth-of-type(2){
+    margin-left: 179px;
+}
+
+fieldset.contact input:nth-of-type(3){
+    margin-left: 191px;
+}
+
+fieldset.personal input{
+    margin-left: 176px;
+}
+
+fieldset.personal select{
+    margin-left: 211px;
+}
+
+fieldset.personal textarea{
+    margin-left: 33px;
+}
