@@ -1,0 +1,30 @@
+body{
+    margin: 100px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+}
+
+.container img:first-child{
+    position: absolute;
+    top: 300px;
+}
+
+.container img:nth-child(2){
+    position: absolute;
+    top: 130px;
+    left: 55px;
+    transition: 0.5s;
+}
+
+.container img:nth-child(3){
+    position: absolute;
+    top: 128px;
+}
+
+.container:hover img:nth-child(2){
+    top: 312px;
+}
