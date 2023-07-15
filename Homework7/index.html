@@ -7,31 +7,99 @@
     <link rel="stylesheet" href="media.css">
     <title>Document</title>
 </head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .clearfix::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .name_label{
+        float: left;
+    }
+
+    .right_side{
+        padding-left: 180px;
+        margin: 0 0 7px 0;
+    }
+
+    .right_side [type="text"]{
+        width: 100%;
+        max-width: 97%;
+    }
+
+    textarea{
+        width: 100%;
+        max-width: 98%;
+    }
+</style>
 <body>
     <div class="container">
-        <div class="intro">
+        <form action="post" action="http://fe.it-academy.by/TestForm.php">
             <p>Для публикации вашей статьи, заполните пожалуйста следующую форму:</p>
-        </div>
-        <form action="http://fe.it-academy.by/TestForm.php" method="post">
-            <div class="content">
-                <p>Название статьи:</p>
-                <input type="text" name="statement"><br>
-                <p>Рубрика:</p>
-                <select name="sphere" id="job_sphere">
-                    <option value="it">программирование</option>
-                    <option value="medicine">медицина</option>
-                    <option value="lumberjack">лесничество</option>
-                    <option value="astronaut">астронавтика</option>
-                </select>
-                <p>Публикация:</p>
-                <input type="radio" name="answer" value="site">на сайте<br>
-                <input type="radio" name="answer" value="magazine">в журнале<br>
-                <input type="radio" name="answer" value="both">на сайте и в журнале<br>
-                <span>Разрешить комментарии:</span><input type="checkbox" name="agreement" class="agr">
-                <p>Текст статьи:</p>
-                <textarea name="state_text" id="state" cols="30" rows="10"></textarea>
-                <input type="submit" name="approve" id="submit" value="Опубликовать">
+            
+            <!-- Наименование -->
+            <div class="name clearfix">
+                <div class="name_label title">
+                    <label for="title">
+                        Название статьи:
+                    </label>
+                </div>
+                <div class="right_side">
+                    <input type="text" name="inputtext">
+                </div>
             </div>
+            
+            <!-- Рубрика -->
+            <div class="rybrika">
+                <div class="name_label title">
+                    <label for="title">
+                        Рубрика:
+                    </label>
+                </div>
+                <div class="right_side">
+                    <select name="sphere" id="sphere">
+                        <option value="it">программирование</option>
+                        <option value="transport">транспорт</option>
+                        <option value="lumber">лесное хозяйство</option>
+                        <option value="medicine">медицина</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Публикация -->
+            <div class="publish">
+                <div class="name_label title">
+                    Публикация:
+                </div>
+                <div class="right_side radio">
+                    <label for="radio">
+                        <input type="radio" name="site" id="site">на сайте
+                        <input type="radio" name="magazine" id="magazine">в журнале
+                        <input type="radio" name="both" id="both">на сайте и в журнале
+                    </label>
+                </div>
+            </div>
+
+            <!-- Комментарии -->
+            <div class="comments">
+                <div class="name_label title">
+                    Разрешить комментарии:
+                </div>
+                <div class="right_side">
+                    <input type="checkbox" name="agree" id="agree">
+                </div>
+            </div>
+
+            <!-- Текст статьи -->
+            <p>Текст статьи:</p>
+            <textarea name="st_text" id="st_text" cols="30" rows="2"></textarea>
         </form>
     </div>
 </body>
