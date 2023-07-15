@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 10px 10px;
+}
+
+.name_label{
+    float: left;
+}
+
+.right_side{
+    padding-left: 180px;
+    margin: 0 0 7px 0;
+}
+
+.right_side [type="text"]{
+    width: 100%;
+    max-width: 97%;
+}
+
+.final_text p{
+    margin: 0;
+}
+
+textarea{
+    width: 100%;
+    max-width: 98%;
+}

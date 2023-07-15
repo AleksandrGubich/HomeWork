@@ -1,0 +1,17 @@
+@media all and (max-width:540px){
+    .name_label{
+        float: none;
+    }
+
+    .right_side{
+        padding-left: 0px;
+    }
+
+    .radio label{
+        display: block;
+    }
+    
+    .comments>.name_label, .comments>.right_side{
+        display: inline-block;
+    }
+}

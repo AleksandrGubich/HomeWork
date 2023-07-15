@@ -7,45 +7,13 @@
     <link rel="stylesheet" href="media.css">
     <title>Document</title>
 </head>
-<style>
-    body{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    .clearfix::after{
-        content: '';
-        display: block;
-        clear: both;
-    }
-
-    .name_label{
-        float: left;
-    }
-
-    .right_side{
-        padding-left: 180px;
-        margin: 0 0 7px 0;
-    }
-
-    .right_side [type="text"]{
-        width: 100%;
-        max-width: 97%;
-    }
-
-    textarea{
-        width: 100%;
-        max-width: 98%;
-    }
-</style>
 <body>
     <div class="container">
         <form action="post" action="http://fe.it-academy.by/TestForm.php">
             <p>Для публикации вашей статьи, заполните пожалуйста следующую форму:</p>
             
             <!-- Наименование -->
-            <div class="name clearfix">
+            <div class="name">
                 <div class="name_label title">
                     <label for="title">
                         Название статьи:
@@ -81,7 +49,11 @@
                 <div class="right_side radio">
                     <label for="radio">
                         <input type="radio" name="site" id="site">на сайте
+                    </label>
+                    <label for="radio">
                         <input type="radio" name="magazine" id="magazine">в журнале
+                    </label>
+                    <label for="radio">
                         <input type="radio" name="both" id="both">на сайте и в журнале
                     </label>
                 </div>
@@ -98,8 +70,10 @@
             </div>
 
             <!-- Текст статьи -->
-            <p>Текст статьи:</p>
-            <textarea name="st_text" id="st_text" cols="30" rows="2"></textarea>
+            <div class="final_text">
+                <p>Текст статьи:</p>
+                <textarea name="st_text" id="st_text" cols="30" rows="2"></textarea>
+            </div>
         </form>
     </div>
 </body>
