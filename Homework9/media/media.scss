@@ -1,0 +1,29 @@
+@media all and (max-width: 450px) {
+    .header_footer {
+        display: none;
+    }
+
+    .main_content {
+        flex-direction: column;
+
+        .right {
+            background-image: none;
+
+            img {
+                float: none;
+                width: 100%;
+            }
+        }
+
+        .left {
+            order: 2;
+            max-width: none;
+            background-color: white;
+
+            li {
+                display: inline-block;
+                margin-right: 15px;
+            }
+        }
+    }
+}

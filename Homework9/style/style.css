@@ -1,0 +1,45 @@
+.header_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .header_footer p {
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #57a0e4;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    width: 100%; }
+
+.main_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .main_content .left {
+    max-width: 200px;
+    min-width: 200px;
+    padding: 10px 10px;
+    vertical-align: top;
+    background-color: #cccc48; }
+    .main_content .left .sport_list {
+      padding-left: 0px;
+      font-weight: bold; }
+  .main_content .right {
+    background-image: url("../Ball.jpg");
+    background-repeat: repeat-y;
+    background-position: top right; }
+    .main_content .right h3 {
+      text-transform: uppercase;
+      text-align: center;
+      padding-top: 10px;
+      margin: 0; }
+    .main_content .right p {
+      padding: 0 15px; }
+    .main_content .right img {
+      float: left;
+      margin: 15px 15px; }
