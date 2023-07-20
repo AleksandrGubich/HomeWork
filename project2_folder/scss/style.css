@@ -1,0 +1,99 @@
+.container {
+  margin: 0 auto;
+  width: 1296px; }
+
+.upperheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  font-family: Nunito, sans-serif;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.301); }
+  .upperheader h6 {
+    white-space: pre-wrap;
+    color: var(--accent, #EC1B2E);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: uppercase; }
+  .upperheader ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 706px; }
+    .upperheader ul li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .upperheader ul li img {
+        margin-right: 20px; }
+  .upperheader button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: none;
+    width: 143px;
+    height: 40px;
+    font-family: Nunito, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--white, #FFF);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: var(--accent, #EC1B2E); }
+    .upperheader button p {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700; }
+
+.lowerheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  font-family: Nunito, sans-serif; }
+  .lowerheader ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none; }
+    .lowerheader ul li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .lowerheader ul li a {
+        color: var(--black, #333);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: 0.28px;
+        text-transform: uppercase;
+        text-decoration: none; }
+    .lowerheader ul li:not(first-item) {
+      margin-left: 20px; }
