@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input[id="flag"] {
+        display: none;
+    }
+
+    label[for="flag"] {
+        width: 56px;
+        height: 56px;
+        background: url(image7-11.png) no-repeat -29px -23px;
+        display: inline-block;
+        user-select: none;
+        border-radius: 18%;
+    }
+
+    input[id="flag"]:checked+label[for="flag"] {
+        background-position: -269px -23px;
+    }
+
+    /* Слайдер */
+    input[id="rowed"] {
+        display: none;
+    }
+
+    label[for="rowed"] {
+        position: relative;
+        display: inline-block;
+        user-select: none;
+        border-radius: 20px;
+        width: 100px;
+        height: 40px;
+        background-color: rgb(196, 194, 194);
+        transition: 0.5s;
+    }
+
+    label[for="rowed"]::before {
+        content: "";
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        left: 3px;
+        top: 3px;
+        transition: 0.5s;
+    }
+
+    input[id="rowed"]:checked+label[for="rowed"]{
+        background-color: rgb(8, 165, 8);
+    }
+
+    input[id="rowed"]:checked+label[for="rowed"]::before{
+        left: 63px;
+    }
+
+</style>
+
+<body>
+
+    <input type="checkbox" id="flag">
+    <label for="flag"></label>
+
+    <br>
+    <br>
+    <br>
+
+    <input type="checkbox" id="rowed">
+    <label for="rowed"></label>
+</body>
+
+</html>
