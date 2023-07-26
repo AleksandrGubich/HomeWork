@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .compare{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .picture{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .picture p{
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <h1>Что такое WebP</h1>
+    <p>WebP — это формат файла, разработанный компанией Google в 2010 году. Его особенностью является продвинутый алгоритм сжатия, позволяющий сократить размер картинки без видимых потерь в качестве.</p>
+    <p>Да, другие форматы тоже поддерживают сжатие, но технологии, стоящие в основе WebP, куда прогрессивнее. И если сравнивать WebP с конкурентами в соотношении степени сжатия к качеству картинки, то разработка Google одержит уверенную победу.</p> 
+    <p>В среднем вес картинок сокращается на 25–35%, что позволяет вебмастерам размещать на сайтах больше изображений, не тратя впустую драгоценное пространство на жестком диске арендованного VDS.</p>
+    <p>При разработке формата сотрудники Google использовали те же методики сжатия, что используются в компрессии кодеков VP8.</p>
+    <p>Для сравнения я выбрал по 3 картинки, изначально имевшие разрешение JPG (конвертировал при помощи сервиса <a href="https://convertio.co/ru/jpg-png/">https://convertio.co/ru/jpg-png/</a>)</p>
+    <div class="compare">
+        <div class="picture">
+            <p>Картинка в формате JPEG, вес - 59.9 Кб</p>
+            <img src="./Pics2_1/JPEG/byqvqXJT5Wc.jpg" alt="">
+        </div>
+        <div class="picture">
+            <p>Картинка в формате PNG, вес - 337.5 Кб</p>
+            <img src="./Pics2_1/PNG/byqvqXJT5Wc.png" alt="">
+        </div>
+        <div class="picture">
+            <div class="picture">
+                <p>Картинка в формате WebP, вес - 37 Кб</p>
+                <img src="./Pics2_1/WEBP/byqvqXJT5Wc_1.webp" alt="">
+            </div>
+        </div>
+    </div>
+        <hr>
+    <div class="compare">
+        <div class="picture">
+           <p>Картинка в формате JPEG, вес - 76 Кб</p>
+           <img src="./Pics2_1/JPEG/JDdvBQhMLz0.jpg" alt="">
+        </div>
+        <div class="picture">
+            <p>Картинка в формате PNG, вес - 378.5 Кб</p>
+            <img src="./Pics2_1/PNG/JDdvBQhMLz0.png" alt="">
+        </div>
+        <div class="picture">
+            <div class="picture">
+                <p>Картинка в формате WebP, вес - 56.3 Кб</p>
+                <img src="./Pics2_1/WEBP/JDdvBQhMLz0_1.webp" alt="">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="compare">
+        <div class="picture">
+            <p>Картинка в формате JPEG, вес - 48.4 Кб</p>
+            <img src="./Pics2_1/JPEG/KQiRg9kuxyc.jpg" alt="">
+        </div>
+        <div class="picture">
+            <p>Картинка в формате PNG, вес - 321.7 Кб</p>
+            <img src="./Pics2_1/PNG/KQiRg9kuxyc.png" alt="">
+        </div>
+        <div class="picture">
+            <div class="picture">
+                <p>Картинка в формате WebP, вес - 35.8 Кб</p>
+                <img src="./Pics2_1/WEBP/KQiRg9kuxyc_1.webp" alt="">
+            </div>
+        </div>
+    </div>
+    <br>
+    <p>Для каждой задачи выбирайте свой формат изображения. Если важна быстрая загрузка, вы работаете с фотографиями или другими многоцветными изображениями, то лучше всего подойдёт WebP.</p>
+    <p>Если вам необходимо сохранить качество графики и логотипов, то лучше использовать PNG. Для изображений со множеством цветов и плавными переходами цвета выбирайте формат JPEG.</p>
+</body>
+</html>
