@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Тег AREA</h1>
+    <p>Тег <span style="font-weight: bold;">area</span> (от англ. area - область) определяет активные области
+        изображения, которые являются ссылками.</p>
+    <p>Рисунок с привязанными к нему активными областями называется в совокупности картой-изображением. Такая карта по
+        внешнему виду ничем не отличается от обычного изображения, но при этом оно может быть разбито на невидимые зоны
+        разной формы, где каждая из областей служит ссылкой. Элемент <span style="font-weight: bold;">area</span> задаёт
+        форму области, её размеры,
+        устанавливает адрес документа, на который следует сделать ссылку. <span style="font-weight: bold;">area</span>
+        всегда располагается в контейнере
+        <span style="font-weight: bold;">map</span>, который связывает координаты областей с изображением.
+    </p>
+    <ul style="list-style-type: lower-greek;">Атрибуты
+        <li>alt - Альтернативный текст для области изображения.</li>
+        <li>coords - Координаты активной области.</li>
+        <li>href - Задаёт адрес документа, на который следует перейти.</li>
+        <li>hreflang - Указывает язык документа, на который ведёт ссылка.</li>
+        <li>shape - Форма области.</li>
+        <li>target - Имя фрейма, куда браузер будет загружать документ.</li>
+        <li>type - Устанавливает MIME-тип документа, на который ведёт ссылка.</li>
+    </ul>
+    <h2>Пример</h2>
+    <div>
+        <img src="aqcsylRGSUc.jpg" usemap="politics" alt="">
+        <map name="politics">
+            <area target="_blank" shape="rect" coords="10,20,260,260" href="#" alt="">
+            <area target="_blank" shape="rect" coords="10,260,260,590" href="#" alt="">
+            <area target="_blank" shape="rect" coords="260,20,260,260" href="#" alt="">
+            <area target="_blank" shape="rect" coords="10,20,260,260" href="#" alt="">
+        </map>
+    </div>
+</body>
+
+</html>
