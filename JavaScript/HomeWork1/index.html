@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var lastName = prompt('Введите Вашу фамилию:', 'Например, Дрыщен')
+        var firstName = prompt('Введите Ваше имя:', 'Например, Жорик');
+        var fathersName = prompt('Введите Ваше отчество:', 'Например, Станиславович');
+        var age = parseInt(prompt('Сколько Вам полных лет?', 'Например, 3426453'))
+        var sex = confirm('Вы мужчинка?')
+
+        if (sex === true) {
+            if (age >= 63) {
+                alert('ваше ФИО: ' + lastName + ' ' + firstName + ' ' + fathersName + 
+                '\nваш возраст в годах: ' + age + '\nваш возраст в днях: ' + (age * 365) + 
+                '\nчерез 5 лет вам будет: ' + (age + 5) + '\nваш пол: мужской' + 
+                '\nвы на пенсии: да')
+            }
+            else{
+                alert('ваше ФИО: ' + lastName + ' ' + firstName + ' ' + fathersName + 
+                '\nваш возраст в годах: ' + age + '\nваш возраст в днях: ' + (age * 365) + 
+                '\nчерез 5 лет вам будет: ' + (age + 5) + '\nваш пол: мужской' + 
+                '\nвы на пенсии: нет')
+            }
+        }
+        else{
+            if (age >= 58){
+                alert('ваше ФИО: ' + lastName + ' ' + firstName + ' ' + fathersName + 
+                '\nваш возраст в годах: ' + age + '\nваш возраст в днях: ' + (age * 365) + 
+                '\nчерез 5 лет вам будет: ' + (age + 5) + '\nваш пол: женский' + 
+                '\nвы на пенсии: да')
+            }
+            else{
+                alert('ваше ФИО: ' + lastName + ' ' + firstName + ' ' + fathersName + 
+                '\nваш возраст в годах: ' + age + '\nваш возраст в днях: ' + (age * 365) + 
+                '\nчерез 5 лет вам будет: ' + (age + 5) + '\nваш пол: женский' + 
+                '\nвы на пенсии: нет')
+            }
+        }
+    </script>
+</body>
+
+</html>
