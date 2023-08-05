@@ -454,6 +454,7 @@
 .category_inner {
     display: flex;
     flex-direction: column;
+    margin-bottom: 128px;
 
     >p {
         color: var(--black, #232536);
@@ -471,10 +472,10 @@
 .category_choise {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     .category_cube {
         max-width: 296px;
-        max-height: 228px;
         border: 1px solid #6d6e763d;
 
         .category_icon {
@@ -513,5 +514,81 @@
 
     .category_cube:hover {
         background: var(--yellow, #FFD050);
+    }
+}
+
+// Секция "простая идея"
+.simpleidea>.container {
+    background: url('./pictures/close-up-photography-of-man-wearing-sunglasses-1212984.png') no-repeat;
+    min-height: 705px;
+    position: relative;
+    margin-bottom: 128px;
+    overflow: hidden;
+}
+
+.simpleidea_inner {
+    display: flex;
+    flex-direction: column;
+    max-width: 706px;
+    min-height: 584px;
+    background-color: #FFF;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-top: 121px;
+
+    & p:first-of-type {
+        color: #232536;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin: 80px 0 24px 80px;
+    }
+
+    & p:nth-of-type(2) {
+        color: var(--black, #232536);
+        font-family: 'Sen', sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: -2px;
+        max-width: 546px;
+        margin: 0 80px 16px 80px;
+    }
+
+    & p:last-of-type {
+        color: var(--medium-grey, #6D6E76);
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        max-width: 546px;
+        margin: 0 80px 32px 80px;
+    }
+
+    & button {
+        display: inline-flex;
+        padding: 16px 48px;
+        align-items: flex-start;
+        background: var(--yellow, #FFD050);
+        color: var(--black, #232536);
+        font-family: 'Sen', sans-serif;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        border: none;
+        width: 269px;
+        margin: 0 0 0 80px;
+
+        &:hover {
+            background: #EDC14A;
+        }
     }
 }

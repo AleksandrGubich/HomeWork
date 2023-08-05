@@ -416,7 +416,8 @@
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  margin-bottom: 128px; }
   .category_inner > p {
     color: var(--black, #232536);
     font-family: 'Sen', sans-serif;
@@ -434,10 +435,11 @@
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
   .category_choise .category_cube {
     max-width: 296px;
-    max-height: 228px;
     border: 1px solid #6d6e763d; }
     .category_choise .category_cube .category_icon {
       display: -webkit-box;
@@ -474,3 +476,75 @@
       margin: 0 0 32px 32px; }
   .category_choise .category_cube:hover {
     background: var(--yellow, #FFD050); }
+
+.simpleidea > .container {
+  background: url("./pictures/close-up-photography-of-man-wearing-sunglasses-1212984.png") no-repeat;
+  min-height: 705px;
+  position: relative;
+  margin-bottom: 128px;
+  overflow: hidden; }
+
+.simpleidea_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 706px;
+  min-height: 584px;
+  background-color: #FFF;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin-top: 121px; }
+  .simpleidea_inner p:first-of-type {
+    color: #232536;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 80px 0 24px 80px; }
+  .simpleidea_inner p:nth-of-type(2) {
+    color: var(--black, #232536);
+    font-family: 'Sen', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    max-width: 546px;
+    margin: 0 80px 16px 80px; }
+  .simpleidea_inner p:last-of-type {
+    color: var(--medium-grey, #6D6E76);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 546px;
+    margin: 0 80px 32px 80px; }
+  .simpleidea_inner button {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 16px 48px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background: var(--yellow, #FFD050);
+    color: var(--black, #232536);
+    font-family: 'Sen', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    width: 269px;
+    margin: 0 0 0 80px; }
+    .simpleidea_inner button:hover {
+      background: #EDC14A; }
