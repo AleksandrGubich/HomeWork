@@ -8,7 +8,6 @@
     background-color: rgba(35, 37, 54, 1);
 }
 
-
 .navigation {
     display: flex;
     align-items: center;
@@ -715,7 +714,6 @@
 
 .testimonials_inner {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 128px;
 
@@ -764,7 +762,7 @@
     .testimonials_right {
         display: flex;
         flex-direction: column;
-        margin: 80px 170px 75px 96px;
+        margin: 80px 112px 75px 96px;
 
         >p {
             color: var(--black, #232536);

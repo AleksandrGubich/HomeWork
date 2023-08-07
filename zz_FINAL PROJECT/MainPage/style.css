@@ -676,9 +676,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 128px; }
@@ -729,7 +726,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 80px 170px 75px 96px; }
+    margin: 80px 112px 75px 96px; }
     .testimonials_inner .testimonials_right > p {
       color: var(--black, #232536);
       font-family: 'Sen', sans-serif;
