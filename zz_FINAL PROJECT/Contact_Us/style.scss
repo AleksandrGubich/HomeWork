@@ -1,0 +1,190 @@
+.container {
+    max-width: 1282px;
+    margin: 0 auto;
+}
+
+// Шапка
+.header {
+    background-color: rgba(35, 37, 54, 1);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+
+    .nav_menu {
+        display: flex;
+        color: var(--light, #FFF);
+        font-family: 'Inter', sans-serif;
+        align-items: center;
+
+        & li {
+            margin-left: 24px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            list-style-type: none;
+
+            & a {
+                text-decoration: none;
+                color: var(--light, #FFF);
+                font-family: 'Inter', sans-serif;
+            }
+        }
+
+        & button {
+            display: inline-flex;
+            padding: 16px 48px;
+            align-items: flex-start;
+            color: var(--black, #232536);
+            font-family: 'Sen', sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            margin-left: 32px;
+        }
+    }
+}
+
+// Форма для связи
+.conversation_inner {
+    display: flex;
+    flex-direction: column;
+
+    .container2 {
+        max-width: 768px;
+        margin: 0 auto;
+        margin-bottom: 128px;
+
+        & h1 {
+            color: #232536;
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 20px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin: 128px 0 12px 0;
+        }
+
+        >p:first-of-type {
+            color: #232536;
+            text-align: center;
+            font-family: 'Sen', sans-serif;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 64px;
+            letter-spacing: -2px;
+            margin: 0 0 24px 0;
+        }
+
+        >p:last-of-type {
+            color: var(--medium-grey, #6D6E76);
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            margin: 0 0 64px 0;
+        }
+
+        .contact_info {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 48px 74px 48px 64px;
+            background: var(--purple, #592EA9);
+            margin-bottom: 32px;
+
+            .contact_info_left {
+                margin-right: 72px;
+
+                >p:first-of-type {
+                    color: #ffffff86;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+                    margin: 0 0 16px 0;
+                    padding-bottom: 16px;
+                    padding-right: 29px;
+                    width: 100%;
+                    border-bottom: 1px solid #ffffff1a;
+                }
+
+                >p:nth-of-type(2),
+                p:nth-of-type(3) {
+                    color: var(--light, #FFF);
+                    font-family: 'Sen', sans-serif;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px;
+                    margin: 0;
+                }
+
+                >p:last-of-type {
+                    color: #ffffff86;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                    margin: 0;
+                }
+            }
+
+            .contact_info_right {
+                >p:first-of-type {
+                    color: #ffffff86;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+                    margin: 0 0 16px 0;
+                    padding-bottom: 16px;
+                    border-bottom: 1px solid #ffffff1a;
+                    padding-right: 217px;
+                    width: 100%;
+                }
+
+                >p:nth-of-type(2) {
+                    color: var(--light, #FFF);
+                    font-family: 'Sen', sans-serif;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px;
+                    margin: 0;
+                }
+
+                >p:last-of-type {
+                    color: #ffffff86;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                    margin: 0;
+                }
+            }
+        }
+
+        .contact_input{
+            margin-bottom: 128px;
+
+            & [type=text]{
+                max-width: 768px;
+            }
+        }
+    }
+}
