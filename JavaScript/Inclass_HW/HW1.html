@@ -11,17 +11,17 @@
 <body>
     <script>
         var str = "";
-        for(var y = 1; y <=5; y++){
-            for(var x = 1; x <=4; x++){
-                if(x===4){
-                    str+='\n';
+        for (var y = 1; y <= 5; y++) {
+            for (var x = 1; x <= 4; x++) {
+                if (x === 4) {
+                    str += '\n';
                     continue
                 }
-                if((x%2 == 0) && (y%2 == 0)){
-                    str+=" "
+                if ((x % 2 == 0) && (y % 2 == 0)) {
+                    str += " "
                 }
                 else {
-                    str+="#"
+                    str += "#"
                 }
             }
         }
