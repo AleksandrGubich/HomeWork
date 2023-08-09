@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./Contact_Us/style.css">
     <title>Finsweet - Contact Us</title>
 </head>
-<link rel="shortcut icon" href="./Contact_Us/pictures/Logo (1).png" />
+<link rel="shortcut icon" href="./Contact_Us/pictures/Logo_s.png" />
 
 <body>
 
@@ -25,7 +25,7 @@
                     <li><a href="./HomePage.html">Home</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact us</a></li>
+                    <li><a href="./ContactUS.html">Contact us</a></li>
                     <button>Subscribe</button>
                 </menu>
             </article>
@@ -56,21 +56,69 @@
                     </article>
                     <article class="contact_input">
                         <form method="post">
-                            <input type="text" value="Full Name">
-                            <input type="text" value="Your Email">
-                            <select name="query" id="query" value="Query Related">
+                            <input type="text" placeholder="Full Name">
+                            <input type="text" placeholder="Your Email">
+                            <select name="query" id="query">
+                                <option value="" disabled selected style='display:none;'>Query Related</option>
                                 <option value="Value1">Value1</option>
                                 <option value="Value2">Value2</option>
                                 <option value="Value3">Value3</option>
                                 <option value="Value4">Value4</option>
                             </select>
-                            <input type="textarea" value="Message">
+                            <textarea name="message" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+                            <input type="submit" value="Send Message">
                         </form>
                     </article>
                 </article>
             </article>
         </article>
     </section>
+
+    <footer class="footer">
+        <article class="container">
+            <article class="footer_inner">
+                <article class="footer_inner_nav">
+                    <img src="./Contact_Us/pictures/Logo.png" alt="">
+                    <menu class="nav_menu">
+                        <li><a href="./HomePage.html">Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="./ContactUS.html">Contact us</a></li>
+                        <li><a href="./PrivacyPolicy.html">Privacy Policy</a></li>
+                    </menu>
+                </article>
+                <article class="subscription">
+                    <article class="subscription_left">
+                        <p>Subscribe to our news letter to get latest updates and news</p>
+                    </article>
+                    <article class="subscription_right">
+                        <form method="post">
+                            <input type="text" placeholder="Enter Your Email">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </article>
+                </article>
+                <article class="adress_media">
+                    <p>Finstreet 118 2561 Fintown</p>
+                    <menu>
+                        <li><a href="#"><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFrSURBVHgBlVPBcYMwELwTJG+XQDogHZgK7BJSADbyZMZ+Yj8TTyZk8INnSnAqsNMBHYQS/EYRlxMBYjxKhtyDkY7bXWl1h3ARoVyNkWiCgFMi8kwOAXIizJWCTZY9FOf12C6klKOquloTYAR/BUHiOOUmSZJTR9CADwz2YUAgUC6ECgyJMIlG2QYuWOGu0trTn3QLSK/fh0Bf6+u4JpNy5emKPmxKqixvsiwp2n04X8ZMuO5uU+nA1QQxWK8KeQsOw/spOm4EjandVRxn4rLjPlkZ6PRTWIPHFpWpYPAg434JD2fzJfWF6bhLt4GtehYtn1lVnucEIhQwOPovZXxy+bPndcfKhP4sWh2gojxNHxedsgFf+MD+5YK0frtQGZlCAvJ7yhYTlVIbsds9HU17wn+DMeaZ6040vW0GZijWtLLBmHVNUPe0KINBJ+Gadg7M1m3zTWLBg/Wi6SrGfncVLJuwsfs03b6f//gCEB+ybyJOL5wAAAAASUVORK5CYII="
+                                    alt=""></a></li>
+                        <li><a href="#"><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAYAAADwMZRfAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFrSURBVHgBtZJNTsJAFMffm9a45Qg9QlmIuBFuIDcw7gihpIkhXVKXgiZNqQk78AZwAmClYVVvMC7dsSa0z9fykRZoUhP5J5103sz7va8B+Adh3otN06pCSBUCkMEK54PBs0xBms3H2nqt+smDpFqttk2AnYRJsucYiaqu2ysqkeX65tZSFLJLV+WvxeJDHmVAMDzgFvgrA+FnqVT+ERsbLXnRUChTw7CG9bql7a9zCZChMAzGnvc6i8tpNNq6ouJ0G2FXp08IM4bogFg9Bem73dhfjRah4h3vJDdN312I/wkiQEYecfax4nK4Qd9JQB4RgZ+C9Pu9EUd1/sDgnuIoBdmQgwkRzSCf5JvbfT+CqGrgC0QtDyEEsJP7PcRxnKUQqyKn9BBFygJQGNrJLFIQ0zQLa7jUQYh73mpZAM97eTq0Y+QcBBc1ROxQljP3igdt8wDmp85Tj8Aw2hVCwaOmwjZNySVOolLh3PoFyuyMjVDrSh4AAAAASUVORK5CYII="
+                                    alt=""></a></li>
+                        <li><a href="#"><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAQCAYAAADwMZRfAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIESURBVHgBhVRLctNAEO0eydriG0TcIJwA5QQJJ4izc2HJJQpsL1jIXrAgQKGUo5R3wTeAExhOgI8g30Aso880b/yRgxKT3mhquvt1v+43YtqaH448FoqYyBURlw4Y/EsRXhYFTWazj+n2jqjfH4yFOELyT1aMIMoOgrC4LOwJzlUpr25uPi3tMBy5lZZItB5fX3+e0BP2OhwcO5xPtHYWlkVfcXWiSk2nxlmW5byZEIZhu4siNWV/eGZp/l3q1qkomaAtr9d7f2Qz0zEJpbNZnO6T0Z3QLTr0WnAG/WHKJHOl8rioWt+kol+Oo7IKPty5tknCLP4B0FoWOLYNRaVUKiwehhlVlfMsmV5e7OI2M1Jtu0mhqrQHj1vk+fN73c2DYJhhDSHaj5Pkw6qOJ2mrJgj6Ozdbuk/PmGXlm6Fbhfcg5QEIScZ02DCb9pMg0MjSTL3b3W/FmNat0HzLvPjRzNnMhLlGt1V+BQ10Wo4s/P4ohvj+APklKHawjLhJU2EpatMi1SBxHGdY2wkx1EsSo4VbgJyJlnA6vXyzi8tJ7wub9gHSMcIyAFsgU82s8qLXe3uUJF9WTQpWBX0hsSiKlbLV3Vqp0EBEj9hjAEYjzHhreIyG3noRvv8uYqXGOKZA//7/B8iuoWfO0NKLGsRYEAw6QD5fB+F3QIdtXai4y692Q/4LsIIIWUAJK1cAAAAASUVORK5CYII="
+                                    alt=""></a></li>
+                        <li><a href="#"><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEESURBVHgBxZM7bsJAEIZn7DiiJGU6cgLSWUmEYk4CJQ2wFW6hBSEBhh5uwA0wR+AEcATXoJ1h1jwFQhhT8EurnYf+bx/axWrdnwGzB2nEHFqpzUaInnWiwTSGMfTgAR0BWnMrCDpz28Y+PKC3QyDGUkX5ERGVZW9J/SeAeJRDrPi2ebWfc+fF4xEIoBwM2sgWFuOC3IfJTX2zXn9JHA8mbfrRFeCWRoP2JJOBSCmVNflw2A1lk+PEAKX8nKb3pSZneYAA8iIxQAN5MokRs1o7+cv+XcA9vR5gu+5f0wTIGLm/hQ8gzstL8MCS/KfwCYz/0v7eLXddw2qtwfCEzG8MIaVYvFu26GEnXY8yVwAAAABJRU5ErkJggg=="
+                                    alt=""></a></li>
+                    </menu>
+                </article>
+                <p>Hello@finsweet.com 020 7993 2905</p>
+            </article>
+        </article>
+    </footer>
 </body>
 
 </html>
