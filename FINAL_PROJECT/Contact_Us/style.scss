@@ -13,10 +13,19 @@
     align-items: center;
     justify-content: space-between;
     min-height: 80px;
+    position: relative;
 
-    .nav{
+    .nav {
         display: flex;
         justify-content: flex-end;
+
+        #burger {
+            display: none;
+        }
+
+        [for=burger] {
+            display: none;
+        }
 
         .nav_menu {
             display: flex;
@@ -24,7 +33,7 @@
             font-family: 'Inter', sans-serif;
             align-items: center;
             padding: 0;
-    
+
             & li {
                 margin-left: 24px;
                 font-size: 16px;
@@ -32,7 +41,7 @@
                 font-weight: 400;
                 line-height: 28px;
                 list-style-type: none;
-    
+
                 & a {
                     text-decoration: none;
                     color: var(--light, #FFF);

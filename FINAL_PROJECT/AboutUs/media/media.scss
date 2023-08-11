@@ -1,0 +1,33 @@
+@media all and (max-width: 680px){
+    .navigation .nav [for=burger]{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: 12px;
+    }
+
+    nav{
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 180px;
+        margin-top: 2px;
+        background-color: rgba(35, 37, 54, 1);
+        user-select: none;
+
+        & menu{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        & li{
+            margin: 24px;
+        }
+    }
+
+    #burger:checked + label + nav{
+        display: block;
+    }
+}

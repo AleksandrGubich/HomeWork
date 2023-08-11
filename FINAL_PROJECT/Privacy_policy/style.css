@@ -15,7 +15,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  min-height: 80px; }
+  min-height: 80px;
+  position: relative; }
   .navigation .nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -23,6 +24,10 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end; }
+    .navigation .nav #burger {
+      display: none; }
+    .navigation .nav [for=burger] {
+      display: none; }
     .navigation .nav .nav_menu {
       display: -webkit-box;
       display: -ms-flexbox;
