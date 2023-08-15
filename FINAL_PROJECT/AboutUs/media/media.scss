@@ -10,10 +10,11 @@
         display: none;
         position: absolute;
         top: 50px;
-        right: 180px;
+        right: 182px;
         margin-top: 2px;
         background-color: rgba(35, 37, 54, 1);
         user-select: none;
+        z-index: 2;
 
         & menu{
             display: flex;

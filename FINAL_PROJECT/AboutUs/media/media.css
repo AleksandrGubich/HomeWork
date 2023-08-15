@@ -15,13 +15,14 @@
     display: none;
     position: absolute;
     top: 50px;
-    right: 180px;
+    right: 182px;
     margin-top: 2px;
     background-color: #232536;
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
-            user-select: none; }
+            user-select: none;
+    z-index: 2; }
     nav menu {
       display: -webkit-box;
       display: -ms-flexbox;

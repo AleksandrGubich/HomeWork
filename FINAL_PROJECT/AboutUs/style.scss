@@ -80,6 +80,7 @@
         margin: 0 32px 0 109px;
         background-color: #FFF;
         padding: 64px 64px 64px 64px;
+        z-index: 1;
 
         >p:first-of-type {
             color: var(--black, #232536);
@@ -129,7 +130,7 @@
     background: url('./pictures/ce4666853a588ecefa1d1add86d0a4da.png') no-repeat;
     background-position: -280px -300px;
     position: relative;
-    z-index: -1;
+    z-index: 0;
     top: -65px;
 }
 
