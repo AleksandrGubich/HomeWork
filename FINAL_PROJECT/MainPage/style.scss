@@ -725,12 +725,12 @@
 .testimonials .container {
     background: var(--light-yellow, #FBF6EA);
     min-height: 464px;
+    margin-bottom: 128px;
 }
 
 .testimonials_inner {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 128px;
 
     .testimonials_left {
         display: flex;

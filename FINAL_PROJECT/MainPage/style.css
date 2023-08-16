@@ -683,15 +683,15 @@
 
 .testimonials .container {
   background: var(--light-yellow, #FBF6EA);
-  min-height: 464px; }
+  min-height: 464px;
+  margin-bottom: 128px; }
 
 .testimonials_inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-bottom: 128px; }
+      flex-wrap: wrap; }
   .testimonials_inner .testimonials_left {
     display: -webkit-box;
     display: -ms-flexbox;
