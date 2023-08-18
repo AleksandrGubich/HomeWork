@@ -1,0 +1,94 @@
+// Для всех
+@media all and (max-width: 1439px) {
+    .subscription_right {
+        flex-direction: column;
+
+        & [type=submit] {
+            margin-top: 10px;
+        }
+    }
+}
+
+// Для всех
+@media all and(max-width: 1375px) {
+    .container {
+        padding: 0 50px;
+    }
+}
+
+// Для всех
+@media all and (max-width: 1070px) {
+    .subscription {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 32px;
+        max-width: none;
+    }
+
+    .footer .footer_inner .subscription_left{
+        padding: 0;
+    }
+
+    .footer .footer_inner .subscription_right{
+        padding: 40px 30px;
+    }
+}
+
+// Для всех
+@media all and (max-width: 917px){
+    .subscription_right{
+        flex-direction: column;
+    }
+
+    .footer .footer_inner .subscription_right [type=text]{
+        margin: 0;
+    }
+}
+
+// Для всех
+@media all and (max-width: 895px){
+    .footer_inner_nav{
+        flex-direction: column;
+    }
+
+    .footer .footer_inner .footer_inner_nav .nav_menu{
+        justify-content: center;
+        padding: 0;
+    }
+}
+
+// Для всех
+@media all and (max-width: 800px) {
+    .navigation .nav [for=burger] {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: 12px;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 182px;
+        margin-top: 2px;
+        background-color: rgba(35, 37, 54, 1);
+        user-select: none;
+        z-index: 2;
+
+        & menu {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        & li {
+            margin: 24px;
+        }
+    }
+
+    #burger:checked+label+nav {
+        display: block;
+    }
+}

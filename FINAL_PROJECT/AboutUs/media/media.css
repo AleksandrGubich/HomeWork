@@ -1,4 +1,4 @@
-@media all and (max-width: 680px) {
+@media all and (max-width: 700px) {
   .navigation .nav [for=burger] {
     display: -webkit-box;
     display: -ms-flexbox;

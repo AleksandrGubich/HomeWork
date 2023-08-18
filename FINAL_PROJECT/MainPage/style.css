@@ -880,6 +880,8 @@
             text-decoration: none;
             color: var(--light, #FFF);
             font-family: 'Inter', sans-serif; }
+        .footer .footer_inner .footer_inner_nav .nav_menu li:first-of-type {
+          margin: 0; }
     .footer .footer_inner .subscription {
       display: -webkit-box;
       display: -ms-flexbox;

@@ -193,6 +193,10 @@
                         font-family: 'Inter', sans-serif;
                     }
                 }
+
+                & li:first-of-type {
+                    margin: 0;
+                }
             }
         }
 
