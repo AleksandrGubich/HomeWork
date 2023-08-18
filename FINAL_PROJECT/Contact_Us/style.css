@@ -246,7 +246,7 @@
           font-style: normal;
           font-weight: 700;
           line-height: 32px;
-          padding: 16px 304px;
+          padding: 16px 0;
           border: none; }
           .conversation_inner .container2 .contact_input [method=post] [type=submit]:hover {
             background: #EDC14A; }
@@ -294,6 +294,8 @@
             text-decoration: none;
             color: var(--light, #FFF);
             font-family: 'Inter', sans-serif; }
+        .footer .footer_inner .footer_inner_nav .nav_menu li:first-of-type {
+          margin: 0; }
     .footer .footer_inner .subscription {
       display: -webkit-box;
       display: -ms-flexbox;

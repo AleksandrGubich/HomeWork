@@ -255,7 +255,7 @@
                     font-style: normal;
                     font-weight: 700;
                     line-height: 32px;
-                    padding: 16px 304px;
+                    padding: 16px 0;
                     border: none;
 
                     &:hover {
@@ -302,6 +302,10 @@
                         color: var(--light, #FFF);
                         font-family: 'Inter', sans-serif;
                     }
+                }
+
+                & li:first-of-type {
+                    margin: 0;
                 }
             }
         }
