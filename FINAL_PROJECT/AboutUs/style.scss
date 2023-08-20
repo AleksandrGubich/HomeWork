@@ -193,12 +193,12 @@
 // О нас нижний блок
 .about_lower>.container {
     margin-top: -65px;
-    background: var(--lavender, #F4F0F8);
-
+    
     .mission_vision {
         display: flex;
         padding: 128px 0 64px 109px;
         margin-bottom: 128px;
+        background: var(--lavender, #F4F0F8);
 
         .mission {
             display: flex;
@@ -539,6 +539,10 @@
                         color: var(--light, #FFF);
                         font-family: 'Inter', sans-serif;
                     }
+                }
+
+                & li:first-of-type {
+                    margin: 0;
                 }
             }
         }

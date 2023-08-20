@@ -190,14 +190,14 @@
             flex-grow: 3; }
 
 .about_lower > .container {
-  margin-top: -65px;
-  background: var(--lavender, #F4F0F8); }
+  margin-top: -65px; }
   .about_lower > .container .mission_vision {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     padding: 128px 0 64px 109px;
-    margin-bottom: 128px; }
+    margin-bottom: 128px;
+    background: var(--lavender, #F4F0F8); }
     .about_lower > .container .mission_vision .mission {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -547,6 +547,8 @@
             text-decoration: none;
             color: var(--light, #FFF);
             font-family: 'Inter', sans-serif; }
+        .footer .footer_inner .footer_inner_nav .nav_menu li:first-of-type {
+          margin: 0; }
     .footer .footer_inner .subscription {
       display: -webkit-box;
       display: -ms-flexbox;
