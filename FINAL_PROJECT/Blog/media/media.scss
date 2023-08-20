@@ -1,0 +1,142 @@
+// Для всех
+@media all and (max-width: 1439px) {
+    .subscription_right {
+        flex-direction: column;
+
+        & [type=submit] {
+            margin-top: 10px;
+        }
+    }
+}
+
+// Для всех
+@media all and(max-width: 1375px) {
+    .container {
+        padding: 0 50px;
+    }
+}
+
+// Для всех
+@media all and (max-width: 1180px) {
+    .category_inner>p {
+        margin: 64px 0 0 0;
+    }
+
+    .category_choise {
+        justify-content: space-evenly;
+        padding: 50px;
+
+        .category_cube {
+            margin: 35px;
+        }
+    }
+}
+
+// Для всех
+@media all and (max-width: 1070px) {
+    .subscription {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 32px;
+        max-width: none;
+    }
+
+    .footer .footer_inner .subscription_left{
+        padding: 0;
+    }
+
+    .footer .footer_inner .subscription_right{
+        padding: 40px 30px;
+    }
+}
+
+@media all and (max-width: 961px){
+    .post{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .posts_inner .post .post_img{
+        margin: 0;
+    }
+
+    .posts_inner .post .post_text{
+        margin: 0;
+        max-width: none;
+    }
+}
+
+// Для всех
+@media all and (max-width: 917px){
+    .subscription_right{
+        flex-direction: column;
+    }
+
+    .footer .footer_inner .subscription_right [type=text]{
+        margin: 0;
+    }
+
+    // Только к этой секции
+    .stepbystep_inner{
+        flex-direction: column;
+        text-align: center;
+
+        .stepbystep_inner_left{
+            max-width: none;
+            margin: 0;
+            align-items: center;
+        }
+
+        .stepbystep_inner_right>img{
+            margin-top: 34px;
+        }
+    }
+}
+
+// Для всех
+@media all and (max-width: 895px){
+    .footer_inner_nav{
+        flex-direction: column;
+    }
+
+    .footer .footer_inner .footer_inner_nav .nav_menu{
+        justify-content: center;
+        padding: 0;
+    }
+}
+
+// Для всех
+@media all and (max-width: 800px) {
+    .navigation .nav [for=burger] {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: 12px;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 182px;
+        margin-top: 2px;
+        background-color: rgba(35, 37, 54, 1);
+        user-select: none;
+        z-index: 2;
+
+        & menu {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        & li {
+            margin: 24px;
+        }
+    }
+
+    #burger:checked+label+nav {
+        display: block;
+    }
+}
