@@ -294,6 +294,42 @@
     }
 }
 
+// Для всех (ПОД ЗАМЕНУ)
+@media all and (max-width: 800px) {
+    .navigation .nav [for=burger] {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: 32px;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 182px;
+        margin-top: 2px;
+        background-color: rgba(35, 37, 54, 1);
+        user-select: none;
+        z-index: 2;
+
+        & menu {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        & li {
+            margin: 24px;
+        }
+    }
+
+    #burger:checked+label+nav {
+        display: block;
+    }
+}
+
 // Для всех
 @media all and (max-width: 650px) {
     .footer .footer_inner .subscription {

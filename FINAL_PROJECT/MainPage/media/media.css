@@ -245,6 +245,50 @@
 @media all and (max-width: 1375px) {
   .container {
     padding: 0 20px; } }
+@media all and (max-width: 800px) {
+  .navigation .nav [for=burger] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-left: 32px; }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 182px;
+    margin-top: 2px;
+    background-color: #232536;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    z-index: 2; }
+    nav menu {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    nav li {
+      margin: 24px; }
+
+  #burger:checked + label + nav {
+    display: block; } }
 @media all and (max-width: 650px) {
   .footer .footer_inner .subscription {
     padding: 10px; }
