@@ -10,13 +10,6 @@
 }
 
 // Для всех
-@media all and(max-width: 1375px) {
-    .container {
-        padding: 0 50px;
-    }
-}
-
-// Для всех
 @media all and (max-width: 1180px) {
     .category_inner>p {
         margin: 64px 0 0 0;
@@ -105,13 +98,21 @@
     }
 }
 
-// Для всех
+// ДОБАВИТЬ!
+// Для всех (ПОД ЗАМЕНУ)
+@media all and(max-width: 1375px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+// Для всех (ПОД ЗАМЕНУ)
 @media all and (max-width: 800px) {
     .navigation .nav [for=burger] {
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        margin-left: 12px;
+        margin-left: 32px;
     }
 
     nav {
@@ -138,5 +139,138 @@
 
     #burger:checked+label+nav {
         display: block;
+    }
+}
+
+// Для всех
+@media all and (max-width: 650px) {
+    .footer .footer_inner .subscription {
+        padding: 10px;
+    }
+
+    .footer .footer_inner .subscription_right {
+        padding: 0;
+    }
+
+    .footer .footer_inner .subscription_right [type=text] {
+        margin: 0;
+        max-width: 298px;
+        width: 100%;
+    }
+}
+
+// Для всех
+@media all and (max-width: 631px) {
+    .footer .footer_inner .footer_inner_nav {
+        align-items: center;
+    }
+
+    .footer .footer_inner .footer_inner_nav .nav_menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 25px;
+
+        >li {
+            margin: 0;
+        }
+    }
+}
+
+// Для всех
+@media all and (max-width: 547px) {
+    .footer .footer_inner .subscription_right [type=text] {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 530px){
+    .post_img img{
+        max-width: 490px;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 496px) {
+    .simpleidea_inner p:nth-of-type(2) {
+        font-size: 36px;
+        line-height: 57px;
+    }
+}
+
+// Для всех
+@media all and (max-width: 481px) {
+    .category_choise .category_cube {
+        margin: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .category_icon {
+            margin: 32px;
+        }
+
+        >p:first-of-type {
+            margin: 4px;
+        }
+
+        >p:last-of-type {
+            margin: 4px 4px 32px 4px;
+        }
+    }
+}
+
+// Для всех
+@media all and (max-width: 457px) {
+    .footer .footer_inner .adress_media>menu {
+        flex-direction: column;
+    }
+}
+
+// Для всех
+@media all and (max-width: 447px) {
+    .footer .footer_inner .subscription_left>p {
+        font-size: 30px;
+        line-height: 42px;
+    }
+}
+
+// Для всех
+@media all and (max-width: 444px) {
+    .navigation .nav button {
+        display: none;
+    }
+
+    nav {
+        right: 3px;
+    }
+}
+
+// Для всех
+@media all and (max-width: 414px) {
+    .category_choise .category_cube {
+        margin: 25px 0;
+    }
+}
+
+// Для всех
+@media all and (max-width: 414px) {
+    .footer .container {
+        padding: 0;
+    }
+}
+
+// Для всех
+@media all and (max-width: 395px) {
+    .footer .footer_inner .subscription_right [type=submit] {
+        padding: 10px;
+    }
+}
+
+// Для всех
+@media all and (max-width: 368px) {
+    .footer .footer_inner .subscription_left>p {
+        font-size: 25px;
+        line-height: 35px;
     }
 }
