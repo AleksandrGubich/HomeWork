@@ -6,9 +6,6 @@
             flex-direction: column; }
     .subscription_right [type=submit] {
       margin-top: 10px; } }
-@media all and (max-width: 1375px) {
-  .container {
-    padding: 0 50px; } }
 @media all and (max-width: 1323px) {
   .testimonials_inner {
     -webkit-box-orient: vertical;
@@ -171,10 +168,7 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
-
-  .footer .footer_inner .subscription_right [type=text] {
-    margin: 0; } }
+            flex-direction: column; } }
 @media all and (max-width: 895px) {
   .footer_inner_nav {
     -webkit-box-orient: vertical;
@@ -234,3 +228,118 @@
 
   #burger:checked + label + nav {
     display: block; } }
+@media all and (max-width: 1294px) {
+  .authorslist > p {
+    margin-bottom: 0; }
+
+  .authorslist .authorsabout {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding: 100px;
+    margin-bottom: 0; }
+    .authorslist .authorsabout .author {
+      margin: 25px;
+      min-width: 300px;
+      min-height: 300px; } }
+@media all and (max-width: 1375px) {
+  .container {
+    padding: 0 20px; } }
+@media all and (max-width: 650px) {
+  .footer .footer_inner .subscription {
+    padding: 10px; }
+
+  .footer .footer_inner .subscription_right {
+    padding: 0; }
+
+  .footer .footer_inner .subscription_right [type=text] {
+    margin: 0;
+    max-width: 298px;
+    width: 100%; } }
+@media all and (max-width: 631px) {
+  .footer .footer_inner .footer_inner_nav {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+  .footer .footer_inner .footer_inner_nav .nav_menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 25px; }
+    .footer .footer_inner .footer_inner_nav .nav_menu > li {
+      margin: 0; } }
+@media all and (max-width: 547px) {
+  .footer .footer_inner .subscription_right [type=text] {
+    padding: 0; } }
+@media all and (max-width: 496px) {
+  .simpleidea_inner p:nth-of-type(2) {
+    font-size: 36px;
+    line-height: 57px; } }
+@media all and (max-width: 481px) {
+  .category_choise .category_cube {
+    margin: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center; }
+    .category_choise .category_cube .category_icon {
+      margin: 32px; }
+    .category_choise .category_cube > p:first-of-type {
+      margin: 4px; }
+    .category_choise .category_cube > p:last-of-type {
+      margin: 4px 4px 32px 4px; } }
+@media all and (max-width: 448px) {
+  .simpleidea_inner {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center; }
+    .simpleidea_inner > p:first-of-type {
+      margin: 80px 0 24px 0; }
+    .simpleidea_inner > p:nth-of-type(2) {
+      margin: 0 24px 16px 24px; }
+    .simpleidea_inner > p:last-of-type {
+      margin: 0 24px 32px 24px; }
+    .simpleidea_inner > button {
+      margin: 0; } }
+@media all and (max-width: 457px) {
+  .footer .footer_inner .adress_media > menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
+@media all and (max-width: 447px) {
+  .footer .footer_inner .subscription_left > p {
+    font-size: 30px;
+    line-height: 42px; } }
+@media all and (max-width: 444px) {
+  .navigation .nav button {
+    display: none; }
+
+  nav {
+    right: 3px; } }
+@media all and (max-width: 414px) {
+  .category_choise .category_cube {
+    margin: 25px 0; } }
+@media all and (max-width: 414px) {
+  .footer .container {
+    padding: 0; } }
+@media all and (max-width: 395px) {
+  .footer .footer_inner .subscription_right [type=submit] {
+    padding: 10px; } }
+@media all and (max-width: 368px) {
+  .footer .footer_inner .subscription_left > p {
+    font-size: 25px;
+    line-height: 35px; } }
