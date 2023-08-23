@@ -9,127 +9,96 @@
     }
 }
 
-// Для всех
-@media all and(max-width: 1375px) {
-    .container {
-        padding: 0 50px;
-    }
-}
-
-@media all and (max-width: 1294px) {
-    .authorslist {
-        >h4 {
-            margin: 0;
-        }
-    }
-
-    .creatives_blog_right .started > p:last-of-type{
-        margin: 0;
-    }
-
-    .authorslist .authorsabout {
-        justify-content: space-evenly;
-        padding: 100px;
-        margin-bottom: 0;
-
-        .author {
-            margin: 40px;
-            min-width: 340px;
-            min-height: 350px;
-        }
-    }
-}
-
-@media all and (max-width: 1375px){
-    .about_lower > .container .mission_vision{
+@media all and (max-width: 1375px) {
+    .about_lower>.container .mission_vision {
         padding: 128px 0 64px 0px;
         justify-content: space-evenly;
         padding: 128px 32px;
 
-        .vision{
+        .vision {
             margin: 0;
         }
 
-        .mission{
+        .mission {
             margin-right: 32px;
         }
     }
 }
 
-@media all and (max-width: 1263px){
-    .about_main{
+@media all and (max-width: 1263px) {
+    .about_main {
         flex-direction: column;
 
-        .about_main_left{
+        .about_main_left {
             text-align: center;
             margin: 0 32px;
 
-            >p:last-of-type{
+            >p:last-of-type {
                 max-width: none;
             }
         }
 
-        .about_main_right{
+        .about_main_right {
             text-align: center;
             margin: 0 32px;
             z-index: 1;
             background-color: white;
             padding-bottom: 32px;
 
-            >p{
+            >p {
                 max-width: none;
                 margin: 0 32px;
             }
         }
 
-        .about_main_upper2{
+        .about_main_upper2 {
             position: static;
             top: 0;
         }
     }
 }
 
-@media all and (max-width: 1110px){
-    .creatives_blog_left{
+@media all and (max-width: 1110px) {
+    .creatives_blog_left {
         flex-direction: column;
         text-align: center;
         margin-bottom: 32px;
         border-bottom: 1px solid #6d6e765d;
 
-        .creatives{
+        .creatives {
             margin: 0;
 
-            >p:nth-of-type(2){
+            >p:nth-of-type(2) {
                 max-width: none;
             }
 
-            >p:last-of-type{
+            >p:last-of-type {
                 max-width: none;
             }
         }
 
-        .creatives_pic_right{
+        .creatives_pic_right {
             padding-bottom: 32px;
         }
     }
 
-    .creatives_blog_right{
+    .creatives_blog_right {
         flex-direction: column;
         text-align: center;
 
-        .started{
+        .started {
             margin: 0;
 
-            >p:nth-of-type(2){
+            >p:nth-of-type(2) {
                 max-width: none;
             }
 
-            >p:last-of-type{
+            >p:last-of-type {
                 max-width: none;
             }
         }
 
-        .started_pic_left{
+        .started_pic_left {
             margin-bottom: 32px;
         }
     }
@@ -144,45 +113,102 @@
         max-width: none;
     }
 
-    .footer .footer_inner .subscription_left{
+    .footer .footer_inner .subscription_left {
         padding: 0;
     }
 
-    .footer .footer_inner .subscription_right{
+    .footer .footer_inner .subscription_right {
         padding: 40px 30px;
     }
 }
 
 // Для всех
-@media all and (max-width: 917px){
-    .subscription_right{
+@media all and (max-width: 917px) {
+    .subscription_right {
         flex-direction: column;
     }
 
-    .footer .footer_inner .subscription_right [type=text]{
+    .footer .footer_inner .subscription_right [type=text] {
         margin: 0;
     }
 }
 
 // Для всех
-@media all and (max-width: 895px){
-    .footer_inner_nav{
+@media all and (max-width: 895px) {
+    .footer_inner_nav {
         flex-direction: column;
     }
 
-    .footer .footer_inner .footer_inner_nav .nav_menu{
+    .footer .footer_inner .footer_inner_nav .nav_menu {
         justify-content: center;
         padding: 0;
     }
 }
 
-// Для всех
+@media all and (max-width: 745px) {
+    .counter {
+        position: relative;
+        align-items: center;
+        right: 78px;
+        flex-wrap: nowrap;
+
+        .counter_column:nth-last-of-type(2) {
+            margin: 0 10px;
+        }
+    }
+}
+
+@media all and (max-width: 724px) {
+    .creatives_blog .container {
+        padding: 25px;
+    }
+}
+
+// Для всех (ПОД ЗАМЕНУ)
+@media all and(max-width: 1375px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+// Для всех (ПОД ЗАМЕНУ)
+@media all and (max-width: 1294px) {
+    .authorslist {
+        >p {
+            margin-bottom: 0;
+        }
+    }
+
+    .authorslist .authorsabout {
+        justify-content: space-evenly;
+        padding: 100px;
+        margin-bottom: 0;
+
+        .author {
+            margin: 25px;
+            min-width: 300px;
+            min-height: 300px;
+        }
+    }
+}
+
+@media all and(max-width: 1110px){
+    .creatives_blog_right .started > p:last-of-type{
+        margin: 0;
+    }
+
+    .authorslist > h4{
+        margin: 0;
+    }
+}
+
+// Для всех (ПОД ЗАМЕНУ)
 @media all and (max-width: 800px) {
     .navigation .nav [for=burger] {
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        margin-left: 12px;
+        margin-left: 32px;
     }
 
     nav {
@@ -212,21 +238,143 @@
     }
 }
 
-@media all and (max-width: 745px){
+@media all and (max-width: 684px){
     .counter{
-        position: relative;
-        align-items: center;
-        right: 78px;
-        flex-wrap: nowrap;
+        flex-direction: column;
+        max-width: 125px;
+        padding: 32px 25px;
+    }
+}
 
-        .counter_column:nth-last-of-type(2){
-            margin: 0 10px;
+@media all and (max-width: 673px) {
+
+    .creatives_pic_right>img,
+    .started_pic_left>img {
+        max-width: 624px;
+        width: 100%;
+    }
+}
+
+// Для всех
+@media all and (max-width: 650px) {
+    .footer .footer_inner .subscription {
+        padding: 10px;
+    }
+
+    .footer .footer_inner .subscription_right {
+        padding: 0;
+    }
+
+    .footer .footer_inner .subscription_right [type=text] {
+        margin: 0;
+        max-width: 298px;
+        width: 100%;
+    }
+}
+
+// Для всех
+@media all and (max-width: 631px) {
+    .footer .footer_inner .footer_inner_nav {
+        align-items: center;
+    }
+
+    .footer .footer_inner .footer_inner_nav .nav_menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 25px;
+
+        >li {
+            margin: 0;
         }
     }
 }
 
-@media all and (max-width: 724px){
-    .creatives_blog .container{
-        padding: 25px;
+@media all and (max-width: 606px){
+    .about_lower > .container .mission_vision{
+        flex-direction: column;
+    }
+
+    .about_lower > .container .mission_vision .vision > p:first-of-type{
+        margin-top: 32px;
+    }
+}
+
+@media all and (max-width: 604px) {
+    .about_main .about_main_left>p:last-of-type {
+        font-size: 40px;
+        line-height: 55px;
+    }
+}
+
+// Для всех
+@media all and (max-width: 547px) {
+    .footer .footer_inner .subscription_right [type=text] {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 538px) {
+    .about_main .about_main_left>p:last-of-type {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .about_main .about_main_left{
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 496px) {
+    .simpleidea_inner p:nth-of-type(2) {
+        font-size: 36px;
+        line-height: 57px;
+    }
+}
+
+// Для всех
+@media all and (max-width: 457px) {
+    .footer .footer_inner .adress_media>menu {
+        flex-direction: column;
+    }
+}
+
+// Для всех
+@media all and (max-width: 447px) {
+    .footer .footer_inner .subscription_left>p {
+        font-size: 30px;
+        line-height: 42px;
+    }
+}
+
+// Для всех
+@media all and (max-width: 444px) {
+    .navigation .nav button {
+        display: none;
+    }
+
+    nav {
+        right: 3px;
+    }
+}
+
+// Для всех
+@media all and (max-width: 414px) {
+    .footer .container {
+        padding: 0;
+    }
+}
+
+// Для всех
+@media all and (max-width: 395px) {
+    .footer .footer_inner .subscription_right [type=submit] {
+        padding: 10px;
+    }
+}
+
+// Для всех
+@media all and (max-width: 368px) {
+    .footer .footer_inner .subscription_left>p {
+        font-size: 25px;
+        line-height: 35px;
     }
 }
