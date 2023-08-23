@@ -228,6 +228,9 @@
 
   #burger:checked + label + nav {
     display: block; } }
+@media all and (max-width: 1375px) {
+  .container {
+    padding: 0 20px; } }
 @media all and (max-width: 1294px) {
   .authorslist > p {
     margin-bottom: 0; }
@@ -242,9 +245,6 @@
       margin: 25px;
       min-width: 300px;
       min-height: 300px; } }
-@media all and (max-width: 1375px) {
-  .container {
-    padding: 0 20px; } }
 @media all and (max-width: 800px) {
   .navigation .nav [for=burger] {
     display: -webkit-box;

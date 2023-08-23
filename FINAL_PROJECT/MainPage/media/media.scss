@@ -267,6 +267,13 @@
 
 // ДОБАВИТЬ!
 // Для всех (ПОД ЗАМЕНУ)
+@media all and(max-width: 1375px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+// Для всех (ПОД ЗАМЕНУ)
 @media all and (max-width: 1294px) {
     .authorslist {
         >p {
@@ -284,13 +291,6 @@
             min-width: 300px;
             min-height: 300px;
         }
-    }
-}
-
-// Для всех (ПОД ЗАМЕНУ)
-@media all and(max-width: 1375px) {
-    .container {
-        padding: 0 20px;
     }
 }
 
