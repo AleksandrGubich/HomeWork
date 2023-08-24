@@ -150,13 +150,13 @@
   .footer .footer_inner .subscription_left > p {
     font-size: 30px;
     line-height: 42px; } }
-@media all and (max-width: 444px) {
+@media all and (max-width: 466px) {
   .navigation .nav button {
     display: none; }
 
   nav {
-    right: 3px; }
-
+    right: 3px; } }
+@media all and (max-width: 444px) {
   .conversation_inner .container2 .contact_input [method=post] [type=text] {
     padding: 8px; }
 

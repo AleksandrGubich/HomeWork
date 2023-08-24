@@ -130,7 +130,7 @@
   .footer .footer_inner .subscription_left > p {
     font-size: 30px;
     line-height: 42px; } }
-@media all and (max-width: 444px) {
+@media all and (max-width: 466px) {
   .navigation .nav button {
     display: none; }
 

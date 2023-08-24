@@ -177,15 +177,18 @@
 }
 
 // Для всех
-@media all and (max-width: 444px) {
+@media all and (max-width: 466px) {
     .navigation .nav button {
         display: none;
     }
-
+    
     nav {
         right: 3px;
     }
+}
 
+// Для всех
+@media all and (max-width: 444px) {
     .conversation_inner .container2 .contact_input [method=post] [type=text]{
         padding: 8px;
     }
